@@ -86,11 +86,11 @@ Non-trainable params: 12,354,880
  4) Dense ( 1 output layer)
 
 << Insert algorithm training performance visualization >> 
- ![Model Training]('model_training.PNG')
+ ![Model Training](model_training.PNG)
 
 << Insert P-R curve >>
 
-![ROC Curve]('ROC.PNG')
+![ROC Curve](ROC.PNG)
 
 **Final Threshold and Explanation:**
 
@@ -100,14 +100,14 @@ The threshold (=0.39418465) was selected to achieve best F1 score of 0.85 on val
  (For the below, include visualizations as they are useful and relevant)
 
 **Description of Training Dataset:** 
-![Histogram of Pneumonia Patients]('train-patient-hist.png')
-![Histogram of Age]('train-patient-age.png')
-![Histogram of Gender]('train-patient-gender.png')
+![Histogram of Pneumonia Patients](train-patient-hist.png)
+![Histogram of Age](train-patient-age.png)
+![Histogram of Gender](train-patient-gender.png)
 
 **Description of Validation Dataset:** 
-![Histogram of Pneumonia Patients]('validation-patient-histogram.png')
-![Histogram of Age]('validation-patient-age.png')
-![Histogram of Gender]('validation-patient-gender.png')
+![Histogram of Pneumonia Patients](validation-patient-histogram.png)
+![Histogram of Age](validation-patient-age.png)
+![Histogram of Gender](validation-patient-gender.png)
 
 ### 5. Ground Truth
 Natural Language Processing (NLP) to text-mine disease classifications from the associated radiological reports was used to generate ground truth. The disease labels are close to 90% accurate. 
